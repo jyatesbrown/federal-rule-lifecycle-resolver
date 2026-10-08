@@ -1,0 +1,14 @@
+{
+    "$schema": "https://apify.com/schemas/v1/output.ide.json",
+    "actorOutputSchemaVersion": 1,
+    "title": "Federal rulemaking lifecycle",
+    "description": "Exactly one dataset item per run: the resolved administrative lifecycle of one federal rulemaking (or an ambiguous/not_found/conflict result with candidates). Administrative record only; does not reflect litigation.",
+    "properties": {
+        "resolution": {
+            "type": "string",
+            "title": "Rule lifecycle record",
+            "description": "The single record: status, action identifiers, lifecycle stage with stageBasis, comment and effective dates, related official documents with relationBasis, Regulations.gov docket metadata, source statuses and billing flag.",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

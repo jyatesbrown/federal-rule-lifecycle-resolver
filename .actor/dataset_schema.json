@@ -1,0 +1,904 @@
+{
+    "actorSpecification": 1,
+    "fields": {
+        "properties": {
+            "schemaVersion": {
+                "default": "1.0",
+                "type": "string"
+            },
+            "status": {
+                "enum": [
+                    "resolved",
+                    "partial",
+                    "ambiguous",
+                    "not_found",
+                    "conflicting_identifiers",
+                    "insufficient_data"
+                ],
+                "type": "string"
+            },
+            "query": {
+                "properties": {
+                    "inputType": {
+                        "enum": [
+                            "federal_register_document_number",
+                            "federal_register_url",
+                            "rin",
+                            "docket_id",
+                            "query"
+                        ],
+                        "type": "string"
+                    },
+                    "input": {
+                        "type": "string"
+                    },
+                    "agency": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "default": null
+                    }
+                },
+                "required": [
+                    "inputType",
+                    "input"
+                ],
+                "type": "object"
+            },
+            "checkedAt": {
+                "type": "string"
+            },
+            "scopeNote": {
+                "default": "Administrative rulemaking record only (Federal Register and Regulations.gov). Does not reflect court decisions, injunctions, stays, appropriations riders, enforcement policy or state law unless a Federal Register document itself announces the change. Not legal advice.",
+                "type": "string"
+            },
+            "action": {
+                "anyOf": [
+                    {
+                        "properties": {
+                            "canonicalTitle": {
+                                "description": "Title of the anchor document (latest final rule, else latest proposal).",
+                                "type": "string"
+                            },
+                            "agencies": {
+                                "items": {
+                                    "properties": {
+                                        "name": {
+                                            "type": "string"
+                                        },
+                                        "slug": {
+                                            "anyOf": [
+                                                {
+                                                    "type": "string"
+                                                },
+                                                {
+                                                    "type": "null"
+                                                }
+                                            ],
+                                            "default": null
+                                        }
+                                    },
+                                    "required": [
+                                        "name"
+                                    ],
+                                    "type": "object"
+                                },
+                                "type": "array"
+                            },
+                            "rins": {
+                                "items": {
+                                    "type": "string"
+                                },
+                                "type": "array"
+                            },
+                            "docketIds": {
+                                "description": "Regulations.gov-style docket IDs from the official records.",
+                                "items": {
+                                    "type": "string"
+                                },
+                                "type": "array"
+                            },
+                            "cfrParts": {
+                                "description": "CFR title/part references, e.g. '40 CFR 60'.",
+                                "items": {
+                                    "type": "string"
+                                },
+                                "type": "array"
+                            }
+                        },
+                        "required": [
+                            "canonicalTitle",
+                            "agencies",
+                            "rins",
+                            "docketIds",
+                            "cfrParts"
+                        ],
+                        "type": "object"
+                    },
+                    {
+                        "type": "null"
+                    }
+                ],
+                "default": null
+            },
+            "lifecycle": {
+                "anyOf": [
+                    {
+                        "properties": {
+                            "currentStage": {
+                                "description": "pre_rule: only an advance notice exists. proposed_comment_open/closed: a proposal exists, no final rule, latest comment deadline in the future/past. final_rule_not_yet_effective / effective: a final rule exists and its current effective date is in the future/has passed. withdrawn: an official document withdraws the action. unknown: official data is insufficient. Extensions, corrections and delays adjust dates; they are never a stage themselves.",
+                                "enum": [
+                                    "pre_rule",
+                                    "proposed_comment_open",
+                                    "proposed_comment_closed",
+                                    "final_rule_not_yet_effective",
+                                    "effective",
+                                    "withdrawn",
+                                    "unknown"
+                                ],
+                                "type": "string"
+                            },
+                            "stageBasis": {
+                                "description": "Deterministic reasons for currentStage, citing document numbers.",
+                                "items": {
+                                    "type": "string"
+                                },
+                                "type": "array"
+                            },
+                            "proposedRulePublished": {
+                                "anyOf": [
+                                    {
+                                        "type": "string"
+                                    },
+                                    {
+                                        "type": "null"
+                                    }
+                                ]
+                            },
+                            "commentPeriod": {
+                                "properties": {
+                                    "originalDeadline": {
+                                        "anyOf": [
+                                            {
+                                                "type": "string"
+                                            },
+                                            {
+                                                "type": "null"
+                                            }
+                                        ],
+                                        "description": "Comment deadline of the first proposal (YYYY-MM-DD)."
+                                    },
+                                    "currentDeadline": {
+                                        "anyOf": [
+                                            {
+                                                "type": "string"
+                                            },
+                                            {
+                                                "type": "null"
+                                            }
+                                        ],
+                                        "description": "Latest comment deadline after extensions/reopenings/supplements."
+                                    },
+                                    "extended": {
+                                        "anyOf": [
+                                            {
+                                                "type": "boolean"
+                                            },
+                                            {
+                                                "type": "null"
+                                            }
+                                        ],
+                                        "description": "True when an extension, reopening or supplemental proposal moved it."
+                                    },
+                                    "open": {
+                                        "anyOf": [
+                                            {
+                                                "type": "boolean"
+                                            },
+                                            {
+                                                "type": "null"
+                                            }
+                                        ],
+                                        "description": "currentDeadline is today or later (as of checkedAt, US Eastern)."
+                                    }
+                                },
+                                "required": [
+                                    "originalDeadline",
+                                    "currentDeadline",
+                                    "extended",
+                                    "open"
+                                ],
+                                "type": "object"
+                            },
+                            "finalRulePublished": {
+                                "anyOf": [
+                                    {
+                                        "type": "string"
+                                    },
+                                    {
+                                        "type": "null"
+                                    }
+                                ]
+                            },
+                            "effectiveDate": {
+                                "properties": {
+                                    "original": {
+                                        "anyOf": [
+                                            {
+                                                "type": "string"
+                                            },
+                                            {
+                                                "type": "null"
+                                            }
+                                        ],
+                                        "description": "Effective date stated by the final rule when published."
+                                    },
+                                    "current": {
+                                        "anyOf": [
+                                            {
+                                                "type": "string"
+                                            },
+                                            {
+                                                "type": "null"
+                                            }
+                                        ],
+                                        "description": "Effective date after any delay documents."
+                                    },
+                                    "delayed": {
+                                        "anyOf": [
+                                            {
+                                                "type": "boolean"
+                                            },
+                                            {
+                                                "type": "null"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "required": [
+                                    "original",
+                                    "current",
+                                    "delayed"
+                                ],
+                                "type": "object"
+                            },
+                            "withdrawnOn": {
+                                "anyOf": [
+                                    {
+                                        "type": "string"
+                                    },
+                                    {
+                                        "type": "null"
+                                    }
+                                ],
+                                "default": null
+                            },
+                            "latestOfficialActionDate": {
+                                "anyOf": [
+                                    {
+                                        "type": "string"
+                                    },
+                                    {
+                                        "type": "null"
+                                    }
+                                ]
+                            },
+                            "latestOfficialAction": {
+                                "anyOf": [
+                                    {
+                                        "type": "string"
+                                    },
+                                    {
+                                        "type": "null"
+                                    }
+                                ],
+                                "default": null,
+                                "description": "Document number of the latest action."
+                            }
+                        },
+                        "required": [
+                            "currentStage",
+                            "stageBasis",
+                            "proposedRulePublished",
+                            "commentPeriod",
+                            "finalRulePublished",
+                            "effectiveDate",
+                            "latestOfficialActionDate"
+                        ],
+                        "type": "object"
+                    },
+                    {
+                        "type": "null"
+                    }
+                ],
+                "default": null
+            },
+            "relatedDocuments": {
+                "items": {
+                    "properties": {
+                        "source": {
+                            "const": "Federal Register",
+                            "default": "Federal Register",
+                            "type": "string"
+                        },
+                        "normalizedType": {
+                            "enum": [
+                                "advance_notice",
+                                "proposed_rule",
+                                "supplemental_proposed_rule",
+                                "notice",
+                                "comment_period_extension",
+                                "comment_period_reopening",
+                                "final_rule",
+                                "interim_final_rule",
+                                "direct_final_rule",
+                                "correction",
+                                "effective_date_delay",
+                                "withdrawal",
+                                "amendment",
+                                "other"
+                            ],
+                            "type": "string"
+                        },
+                        "nativeType": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ]
+                        },
+                        "nativeAction": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ]
+                        },
+                        "documentNumber": {
+                            "type": "string"
+                        },
+                        "publicationDate": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ]
+                        },
+                        "commentsCloseOn": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "default": null
+                        },
+                        "effectiveOn": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "default": null
+                        },
+                        "rins": {
+                            "items": {
+                                "type": "string"
+                            },
+                            "type": "array"
+                        },
+                        "docketIds": {
+                            "items": {
+                                "type": "string"
+                            },
+                            "type": "array"
+                        },
+                        "sourceUrl": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ]
+                        },
+                        "regulationsGovDocumentId": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "default": null
+                        },
+                        "relationBasis": {
+                            "items": {
+                                "type": "string"
+                            },
+                            "type": "array"
+                        }
+                    },
+                    "required": [
+                        "normalizedType",
+                        "nativeType",
+                        "nativeAction",
+                        "title",
+                        "documentNumber",
+                        "publicationDate",
+                        "rins",
+                        "docketIds",
+                        "sourceUrl",
+                        "relationBasis"
+                    ],
+                    "type": "object"
+                },
+                "type": "array"
+            },
+            "regulationsGov": {
+                "anyOf": [
+                    {
+                        "properties": {
+                            "dockets": {
+                                "items": {
+                                    "properties": {
+                                        "docketId": {
+                                            "type": "string"
+                                        },
+                                        "agency": {
+                                            "anyOf": [
+                                                {
+                                                    "type": "string"
+                                                },
+                                                {
+                                                    "type": "null"
+                                                }
+                                            ]
+                                        },
+                                        "rin": {
+                                            "anyOf": [
+                                                {
+                                                    "type": "string"
+                                                },
+                                                {
+                                                    "type": "null"
+                                                }
+                                            ]
+                                        },
+                                        "docketType": {
+                                            "anyOf": [
+                                                {
+                                                    "type": "string"
+                                                },
+                                                {
+                                                    "type": "null"
+                                                }
+                                            ]
+                                        },
+                                        "sourceUrl": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": [
+                                        "docketId",
+                                        "title",
+                                        "agency",
+                                        "rin",
+                                        "docketType",
+                                        "sourceUrl"
+                                    ],
+                                    "type": "object"
+                                },
+                                "type": "array"
+                            },
+                            "documentCount": {
+                                "anyOf": [
+                                    {
+                                        "type": "integer"
+                                    },
+                                    {
+                                        "type": "null"
+                                    }
+                                ],
+                                "description": "Proposed/final rule documents in the docket(s); null if unknown."
+                            },
+                            "commentCount": {
+                                "anyOf": [
+                                    {
+                                        "type": "integer"
+                                    },
+                                    {
+                                        "type": "null"
+                                    }
+                                ],
+                                "default": null,
+                                "description": "Not retrieved in v1; always null."
+                            }
+                        },
+                        "required": [
+                            "dockets",
+                            "documentCount"
+                        ],
+                        "type": "object"
+                    },
+                    {
+                        "type": "null"
+                    }
+                ],
+                "default": null
+            },
+            "resolution": {
+                "properties": {
+                    "confidence": {
+                        "anyOf": [
+                            {
+                                "enum": [
+                                    "high",
+                                    "medium",
+                                    "low"
+                                ],
+                                "type": "string"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "description": "high: exact document number, exact RIN, exact docket ID or several agreeing identifiers. medium: a single dominant natural-language match consistent in agency, title and identifiers. low is never returned as resolved; such queries return status 'ambiguous'."
+                    },
+                    "matchedBy": {
+                        "items": {
+                            "type": "string"
+                        },
+                        "type": "array"
+                    },
+                    "ambiguities": {
+                        "items": {
+                            "properties": {
+                                "kind": {
+                                    "type": "string"
+                                },
+                                "detail": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "kind",
+                                "detail"
+                            ],
+                            "type": "object"
+                        },
+                        "type": "array"
+                    }
+                },
+                "required": [
+                    "confidence",
+                    "matchedBy",
+                    "ambiguities"
+                ],
+                "type": "object"
+            },
+            "candidates": {
+                "items": {
+                    "properties": {
+                        "agency": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ]
+                        },
+                        "rins": {
+                            "items": {
+                                "type": "string"
+                            },
+                            "type": "array"
+                        },
+                        "docketIds": {
+                            "items": {
+                                "type": "string"
+                            },
+                            "type": "array"
+                        },
+                        "federalRegisterDocumentNumber": {
+                            "type": "string"
+                        },
+                        "publicationDate": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ]
+                        },
+                        "documentType": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ]
+                        },
+                        "sourceUrl": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ]
+                        }
+                    },
+                    "required": [
+                        "title",
+                        "agency",
+                        "rins",
+                        "docketIds",
+                        "federalRegisterDocumentNumber",
+                        "publicationDate",
+                        "documentType",
+                        "sourceUrl"
+                    ],
+                    "type": "object"
+                },
+                "type": "array"
+            },
+            "sources": {
+                "properties": {
+                    "federalRegister": {
+                        "properties": {
+                            "status": {
+                                "enum": [
+                                    "success",
+                                    "not_queried",
+                                    "unavailable",
+                                    "timeout",
+                                    "authentication_failed",
+                                    "rate_limited",
+                                    "parser_failed"
+                                ],
+                                "type": "string"
+                            },
+                            "detail": {
+                                "anyOf": [
+                                    {
+                                        "type": "string"
+                                    },
+                                    {
+                                        "type": "null"
+                                    }
+                                ],
+                                "default": null
+                            }
+                        },
+                        "required": [
+                            "status"
+                        ],
+                        "type": "object"
+                    },
+                    "regulationsGov": {
+                        "properties": {
+                            "status": {
+                                "enum": [
+                                    "success",
+                                    "not_queried",
+                                    "unavailable",
+                                    "timeout",
+                                    "authentication_failed",
+                                    "rate_limited",
+                                    "parser_failed"
+                                ],
+                                "type": "string"
+                            },
+                            "detail": {
+                                "anyOf": [
+                                    {
+                                        "type": "string"
+                                    },
+                                    {
+                                        "type": "null"
+                                    }
+                                ],
+                                "default": null
+                            }
+                        },
+                        "required": [
+                            "status"
+                        ],
+                        "type": "object"
+                    }
+                },
+                "required": [
+                    "federalRegister",
+                    "regulationsGov"
+                ],
+                "type": "object"
+            },
+            "billing": {
+                "properties": {
+                    "billable": {
+                        "type": "boolean"
+                    },
+                    "eventName": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ]
+                    },
+                    "reason": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "billable",
+                    "eventName",
+                    "reason"
+                ],
+                "type": "object"
+            }
+        },
+        "required": [
+            "status",
+            "query",
+            "checkedAt",
+            "resolution",
+            "sources",
+            "billing"
+        ],
+        "type": "object"
+    },
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "description": "Resolution status and reconstructed lifecycle.",
+            "transformation": {
+                "flatten": [
+                    "action",
+                    "lifecycle",
+                    "resolution",
+                    "billing"
+                ],
+                "fields": [
+                    "status",
+                    "action.canonicalTitle",
+                    "action.rins",
+                    "action.docketIds",
+                    "lifecycle.currentStage",
+                    "lifecycle.commentPeriod.currentDeadline",
+                    "lifecycle.effectiveDate.current",
+                    "lifecycle.latestOfficialActionDate",
+                    "resolution.confidence",
+                    "billing.billable",
+                    "checkedAt"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "status": {
+                        "label": "Status",
+                        "format": "text"
+                    },
+                    "action.canonicalTitle": {
+                        "label": "Rulemaking",
+                        "format": "text"
+                    },
+                    "action.rins": {
+                        "label": "RINs",
+                        "format": "array"
+                    },
+                    "action.docketIds": {
+                        "label": "Dockets",
+                        "format": "array"
+                    },
+                    "lifecycle.currentStage": {
+                        "label": "Stage",
+                        "format": "text"
+                    },
+                    "lifecycle.commentPeriod.currentDeadline": {
+                        "label": "Comment deadline",
+                        "format": "text"
+                    },
+                    "lifecycle.effectiveDate.current": {
+                        "label": "Effective date",
+                        "format": "text"
+                    },
+                    "lifecycle.latestOfficialActionDate": {
+                        "label": "Latest action",
+                        "format": "text"
+                    },
+                    "resolution.confidence": {
+                        "label": "Confidence",
+                        "format": "text"
+                    },
+                    "billing.billable": {
+                        "label": "Billable",
+                        "format": "boolean"
+                    },
+                    "checkedAt": {
+                        "label": "Checked at",
+                        "format": "date"
+                    }
+                }
+            }
+        },
+        "documents": {
+            "title": "Related documents",
+            "description": "One row per official Federal Register document in the lifecycle.",
+            "transformation": {
+                "unwind": [
+                    "relatedDocuments"
+                ],
+                "fields": [
+                    "documentNumber",
+                    "normalizedType",
+                    "nativeAction",
+                    "publicationDate",
+                    "relationBasis",
+                    "sourceUrl"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "documentNumber": {
+                        "label": "FR document",
+                        "format": "text"
+                    },
+                    "normalizedType": {
+                        "label": "Type",
+                        "format": "text"
+                    },
+                    "nativeAction": {
+                        "label": "Official action",
+                        "format": "text"
+                    },
+                    "publicationDate": {
+                        "label": "Published",
+                        "format": "text"
+                    },
+                    "relationBasis": {
+                        "label": "Relation basis",
+                        "format": "array"
+                    },
+                    "sourceUrl": {
+                        "label": "URL",
+                        "format": "link"
+                    }
+                }
+            }
+        }
+    }
+}

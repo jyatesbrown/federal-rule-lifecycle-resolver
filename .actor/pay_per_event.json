@@ -1,0 +1,17 @@
+{
+    "pricingModel": "PAY_PER_EVENT",
+    "pricingPerEvent": {
+        "actorChargeEvents": {
+            "apify-actor-start": {
+                "eventTitle": "Actor start",
+                "eventDescription": "Charged once when the Actor starts.",
+                "eventPriceUsd": 0.00005
+            },
+            "rule-resolution": {
+                "eventTitle": "Rule resolution",
+                "eventDescription": "One federal rulemaking resolved with a usable lifecycle (status resolved, or partial with high confidence). Ambiguous, not_found, conflicting_identifiers and insufficient_data results are not charged.",
+                "eventPriceUsd": 0.05
+            }
+        }
+    }
+}

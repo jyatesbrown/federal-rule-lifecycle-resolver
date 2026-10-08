@@ -1,0 +1,45 @@
+{
+    "title": "Federal Rule Lifecycle Resolver input",
+    "description": "Identify one federal rulemaking. Provide at least one field. Several identifiers are cross-checked; incompatible identifiers return status conflicting_identifiers (not charged).",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "federalRegisterDocumentNumber": {
+            "title": "Federal Register document number",
+            "type": "string",
+            "description": "e.g. \"2024-00366\". Highest-confidence identifier.",
+            "editor": "textfield"
+        },
+        "federalRegisterUrl": {
+            "title": "Federal Register URL",
+            "type": "string",
+            "description": "A federalregister.gov/documents/... URL; the document number is read from it.",
+            "editor": "textfield"
+        },
+        "rin": {
+            "title": "RIN (Regulation Identifier Number)",
+            "type": "string",
+            "description": "e.g. \"2060-AV16\".",
+            "editor": "textfield"
+        },
+        "docketId": {
+            "title": "Regulations.gov docket ID",
+            "type": "string",
+            "description": "e.g. \"EPA-HQ-OAR-2021-0317\".",
+            "editor": "textfield"
+        },
+        "query": {
+            "title": "Rule name (natural language)",
+            "type": "string",
+            "description": "Rule title or name, e.g. \"Oil and Natural Gas Sector Climate Review\". Resolved only when one rulemaking clearly dominates; otherwise status ambiguous with up to 5 candidates (not charged).",
+            "editor": "textfield",
+            "prefill": "Oil and Natural Gas Sector Climate Review"
+        },
+        "agency": {
+            "title": "Agency (optional)",
+            "type": "string",
+            "description": "Agency name or federalregister.gov slug to narrow a natural-language query, e.g. \"Environmental Protection Agency\".",
+            "editor": "textfield"
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+ "description": "Documents associated with RIN 1904-AG06 - Energy Conservation Program: Test Procedures for Commercial Warm Air Furnaces",
+ "count": 2,
+ "total_pages": 1,
+ "results": [
+  {
+   "document_number": "2025-08580",
+   "title": "Energy Conservation Program: Test Procedures for Commercial Warm Air Furnaces",
+   "type": "Proposed Rule",
+   "action": "Proposed rule; request for comment.",
+   "publication_date": "2025-05-16",
+   "comments_close_on": "2025-07-15",
+   "effective_on": null,
+   "regulation_id_numbers": [
+    "1904-AG06"
+   ],
+   "docket_ids": [
+    "EERE-2025-BT-TP-0035"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "DEPARTMENT OF ENERGY",
+     "name": "Energy Department",
+     "id": 136,
+     "url": "https://www.federalregister.gov/agencies/energy-department",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/136",
+     "parent_id": null,
+     "slug": "energy-department"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "431",
+     "title": 10
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2025/05/16/2025-08580/energy-conservation-program-test-procedures-for-commercial-warm-air-furnaces",
+   "dates": "Comments: Written comments and information are requested and will be accepted on or before July 15, 2025.",
+   "subtype": null
+  },
+  {
+   "document_number": "2026-20517",
+   "title": "Energy Conservation Program: Test Procedures for Commercial Warm Air Furnaces",
+   "type": "Rule",
+   "action": "Final rule.",
+   "publication_date": "2026-10-07",
+   "comments_close_on": null,
+   "effective_on": "2026-12-07",
+   "regulation_id_numbers": [
+    "1904-AG06"
+   ],
+   "docket_ids": [
+    "EERE-2025-BT-TP-0035"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "DEPARTMENT OF ENERGY",
+     "name": "Energy Department",
+     "id": 136,
+     "url": "https://www.federalregister.gov/agencies/energy-department",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/136",
+     "parent_id": null,
+     "slug": "energy-department"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "431",
+     "title": 10
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2026/10/07/2026-20517/energy-conservation-program-test-procedures-for-commercial-warm-air-furnaces",
+   "dates": "The effective date of this rule is December 7, 2026.",
+   "subtype": null
+  }
+ ]
+}

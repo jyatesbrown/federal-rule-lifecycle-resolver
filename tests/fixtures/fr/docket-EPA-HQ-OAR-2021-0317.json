@@ -1,0 +1,207 @@
+{
+ "description": "Documents filed under agency docket EPA-HQ-OAR-2021-0317",
+ "count": 5,
+ "total_pages": 1,
+ "results": [
+  {
+   "document_number": "2021-24202",
+   "title": "Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review",
+   "type": "Proposed Rule",
+   "action": "Proposed rule.",
+   "publication_date": "2021-11-15",
+   "comments_close_on": "2022-01-14",
+   "effective_on": null,
+   "regulation_id_numbers": [
+    "2060-AV16"
+   ],
+   "docket_ids": [
+    "EPA-HQ-OAR-2021-0317",
+    "FRL-8510-02-OAR"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "ENVIRONMENTAL PROTECTION AGENCY",
+     "name": "Environmental Protection Agency",
+     "id": 145,
+     "url": "https://www.federalregister.gov/agencies/environmental-protection-agency",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/145",
+     "parent_id": null,
+     "slug": "environmental-protection-agency"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "60",
+     "title": 40
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2021/11/15/2021-24202/standards-of-performance-for-new-reconstructed-and-modified-sources-and-emissions-guidelines-for",
+   "dates": "Comments. Comments must be received on or before January 14, 2022. Under the Paperwork Reduction Act (PRA), comments on the information collection provisions are best assured of consideration if the Office of Management and Budget (OMB) receives a copy of your comments on or before December 15, 2021.",
+   "subtype": null
+  },
+  {
+   "document_number": "2021-27312",
+   "title": "Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review; Extension of Comment Period",
+   "type": "Proposed Rule",
+   "action": "Proposed rulemaking; extension of public comment period.",
+   "publication_date": "2021-12-17",
+   "comments_close_on": "2022-01-31",
+   "effective_on": "2021-11-15",
+   "regulation_id_numbers": [
+    "2060-AV16"
+   ],
+   "docket_ids": [
+    "EPA-HQ-OAR-2021-0317",
+    "FRL-8510-04-OAR"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "ENVIRONMENTAL PROTECTION AGENCY",
+     "name": "Environmental Protection Agency",
+     "id": 145,
+     "url": "https://www.federalregister.gov/agencies/environmental-protection-agency",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/145",
+     "parent_id": null,
+     "slug": "environmental-protection-agency"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "60",
+     "title": 40
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2021/12/17/2021-27312/standards-of-performance-for-new-reconstructed-and-modified-sources-and-emissions-guidelines-for",
+   "dates": "The public comment period for the proposal published in the Federal Register on November 15, 2021 (86 FR 63110) is extended from January 14, 2022 to January 31, 2022.Written comments must be received on or before January 31, 2022.",
+   "subtype": null
+  },
+  {
+   "document_number": "2022-24675",
+   "title": "Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review",
+   "type": "Proposed Rule",
+   "action": "Supplemental notice of proposed rulemaking.",
+   "publication_date": "2022-12-06",
+   "comments_close_on": "2023-01-05",
+   "effective_on": null,
+   "regulation_id_numbers": [
+    "2060-AV16"
+   ],
+   "docket_ids": [
+    "EPA-HQ-OAR-2021-0317",
+    "FRL-8510-04-OAR"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "ENVIRONMENTAL PROTECTION AGENCY",
+     "name": "Environmental Protection Agency",
+     "id": 145,
+     "url": "https://www.federalregister.gov/agencies/environmental-protection-agency",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/145",
+     "parent_id": null,
+     "slug": "environmental-protection-agency"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "60",
+     "title": 40
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2022/12/06/2022-24675/standards-of-performance-for-new-reconstructed-and-modified-sources-and-emissions-guidelines-for",
+   "dates": "Comments must be received on or before February 13, 2023. Under the Paperwork Reduction Act (PRA), OMB is required to make a decision concerning the collections of information contained in the proposed rule between 30 and 60 days after publication and submission to OMB. A comment to OMB is best assured of consideration if the Office of Management and Budget (OMB) receives it on or before January 5, 2023.",
+   "subtype": null
+  },
+  {
+   "document_number": "2024-00366",
+   "title": "Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review",
+   "type": "Rule",
+   "action": "Final rule.",
+   "publication_date": "2024-03-08",
+   "comments_close_on": null,
+   "effective_on": "2024-05-07",
+   "regulation_id_numbers": [
+    "2060-AV16"
+   ],
+   "docket_ids": [
+    "EPA-HQ-OAR-2021-0317",
+    "FRL-8510-01-OAR"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "ENVIRONMENTAL PROTECTION AGENCY",
+     "name": "Environmental Protection Agency",
+     "id": 145,
+     "url": "https://www.federalregister.gov/agencies/environmental-protection-agency",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/145",
+     "parent_id": null,
+     "slug": "environmental-protection-agency"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "60",
+     "title": 40
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2024/03/08/2024-00366/standards-of-performance-for-new-reconstructed-and-modified-sources-and-emissions-guidelines-for",
+   "dates": "This final rule is effective on May 7, 2024. The incorporation by reference (IBR) of certain publications listed in the rules is approved by the Director of the Federal Register as of May 7, 2024.",
+   "subtype": null
+  },
+  {
+   "document_number": "2024-13206",
+   "title": "Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review: Correction",
+   "type": "Rule",
+   "action": "Interim final rule; correction; request for comments.",
+   "publication_date": "2024-08-01",
+   "comments_close_on": "2024-09-03",
+   "effective_on": "2024-08-01",
+   "regulation_id_numbers": [
+    "2060-AW18"
+   ],
+   "docket_ids": [
+    "EPA-HQ-OAR-2021-0317",
+    "FRL-11890-01-OAR"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "ENVIRONMENTAL PROTECTION AGENCY",
+     "name": "Environmental Protection Agency",
+     "id": 145,
+     "url": "https://www.federalregister.gov/agencies/environmental-protection-agency",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/145",
+     "parent_id": null,
+     "slug": "environmental-protection-agency"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "60",
+     "title": 40
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2024/08/01/2024-13206/standards-of-performance-for-new-reconstructed-and-modified-sources-and-emissions-guidelines-for",
+   "dates": "This rule is effective on August 1, 2024. Comments on this interim final rule must be received on or before September 3, 2024.",
+   "subtype": null
+  }
+ ]
+}

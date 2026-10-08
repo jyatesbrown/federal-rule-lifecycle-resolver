@@ -1,0 +1,53 @@
+{
+ "description": "Documents associated with RIN 2060-AW66 - Reconsideration of National Emission Standards for Hazardous Air Pollutants: Gasoline Distribution Technology Reviews and New Source Performance Standards Review for Bulk Gasoline Terminals",
+ "count": 1,
+ "total_pages": 1,
+ "results": [
+  {
+   "document_number": "2026-19774",
+   "title": "National Emission Standards for Hazardous Air Pollutants for Gasoline Distribution Facilities and Standards of Performance for Bulk Gasoline Terminals Reconsideration",
+   "type": "Proposed Rule",
+   "action": "Proposed rule; reconsideration of final rule.",
+   "publication_date": "2026-09-28",
+   "comments_close_on": "2026-11-12",
+   "effective_on": null,
+   "regulation_id_numbers": [
+    "2060-AW66"
+   ],
+   "docket_ids": [
+    "EPA-HQ-OAR-2025-0302",
+    "FRL-8202.1-01-OAR"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "ENVIRONMENTAL PROTECTION AGENCY",
+     "name": "Environmental Protection Agency",
+     "id": 145,
+     "url": "https://www.federalregister.gov/agencies/environmental-protection-agency",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/145",
+     "parent_id": null,
+     "slug": "environmental-protection-agency"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "60",
+     "title": 40
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "63",
+     "title": 40
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2026/09/28/2026-19774/national-emission-standards-for-hazardous-air-pollutants-for-gasoline-distribution-facilities-and",
+   "dates": "Comments must be received on or before November 12, 2026. Comments on the information collection provisions of the proposed rule under the Paperwork Reduction Act (PRA) must be received by the Office of Management and Budget's Office of Information and Regulatory Affairs (OMB-OIRA) on or before October 28, 2026. Please refer to the PRA section under \"Statutory and Executive Order Reviews\" in this preamble for specific instructions.",
+   "subtype": null
+  }
+ ]
+}

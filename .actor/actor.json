@@ -1,0 +1,24 @@
+{
+    "$schema": "https://apify.com/schemas/v1/actor.ide.json",
+    "actorSpecification": 1,
+    "name": "federal-rule-lifecycle-resolver",
+    "title": "Federal Rule Lifecycle Resolver — Federal Register + Regulations.gov",
+    "description": "Resolve a U.S. federal rulemaking from a RIN, docket ID, Federal Register document number/URL or title. Returns one record: current stage, comment deadlines and extensions, final-rule and effective dates, delays, withdrawals and related official documents with provenance.",
+    "version": "1.0",
+    "buildTag": "latest",
+    "meta": {
+        "templateId": "python-start",
+        "generatedBy": "Devin (Cognition AI)"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "storages": {
+        "dataset": "./dataset_schema.json"
+    },
+    "readme": "../README.md",
+    "dockerfile": "../Dockerfile",
+    "minMemoryMbytes": 128,
+    "maxMemoryMbytes": 1024,
+    "defaultMemoryMbytes": 256,
+    "usesStandbyMode": false
+}

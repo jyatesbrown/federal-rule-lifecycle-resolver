@@ -1,0 +1,197 @@
+{
+ "description": "Documents associated with RIN 1235-AA52 - ",
+ "count": 2,
+ "total_pages": 1,
+ "results": [
+  {
+   "document_number": "2025-12314",
+   "title": "Statements of General Policy or Interpretation Not Directly Related to Regulations",
+   "type": "Proposed Rule",
+   "action": "Notice of proposed rule; request for comments.",
+   "publication_date": "2025-07-02",
+   "comments_close_on": "2025-08-01",
+   "effective_on": null,
+   "regulation_id_numbers": [
+    "1235-AA52"
+   ],
+   "docket_ids": [],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "DEPARTMENT OF LABOR",
+     "name": "Labor Department",
+     "id": 271,
+     "url": "https://www.federalregister.gov/agencies/labor-department",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/271",
+     "parent_id": null,
+     "slug": "labor-department"
+    },
+    {
+     "raw_name": "Wage and Hour Division",
+     "name": "Wage and Hour Division",
+     "id": 524,
+     "url": "https://www.federalregister.gov/agencies/wage-and-hour-division",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/524",
+     "parent_id": 271,
+     "slug": "wage-and-hour-division"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "775",
+     "title": 29
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "776",
+     "title": 29
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "779",
+     "title": 29
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "782",
+     "title": 29
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "783",
+     "title": 29
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "784",
+     "title": 29
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "789",
+     "title": 29
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "793",
+     "title": 29
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "794",
+     "title": 29
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2025/07/02/2025-12314/statements-of-general-policy-or-interpretation-not-directly-related-to-regulations",
+   "dates": "Comments must be received on or before August 1, 2025.",
+   "subtype": null
+  },
+  {
+   "document_number": "2026-20523",
+   "title": "Statements of General Policy or Interpretation Not Directly Related to Regulations; Withdrawal of Proposed Rule",
+   "type": "Proposed Rule",
+   "action": "Withdrawal of proposed rule.",
+   "publication_date": "2026-10-07",
+   "comments_close_on": null,
+   "effective_on": null,
+   "regulation_id_numbers": [
+    "1235-AA52"
+   ],
+   "docket_ids": [
+    "Docket No. WHD-2025-0002"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "DEPARTMENT OF LABOR",
+     "name": "Labor Department",
+     "id": 271,
+     "url": "https://www.federalregister.gov/agencies/labor-department",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/271",
+     "parent_id": null,
+     "slug": "labor-department"
+    },
+    {
+     "raw_name": "Wage and Hour Division",
+     "name": "Wage and Hour Division",
+     "id": 524,
+     "url": "https://www.federalregister.gov/agencies/wage-and-hour-division",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/524",
+     "parent_id": 271,
+     "slug": "wage-and-hour-division"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "775",
+     "title": 29
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "776",
+     "title": 29
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "779",
+     "title": 29
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "782",
+     "title": 29
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "783",
+     "title": 29
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "784",
+     "title": 29
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "789",
+     "title": 29
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "793",
+     "title": 29
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "794",
+     "title": 29
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2026/10/07/2026-20523/statements-of-general-policy-or-interpretation-not-directly-related-to-regulations-withdrawal-of",
+   "dates": "The proposed rule published on July 2, 2025 (90 FR 28985) is withdrawn as of October 6, 2026.",
+   "subtype": null
+  }
+ ]
+}

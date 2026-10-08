@@ -1,0 +1,280 @@
+{
+ "description": "Documents associated with RIN 1903-AA23 - Rescinding Regulations for Loans for Minority Business Enterprises Seeking DOE Contracts and Assistance",
+ "count": 7,
+ "total_pages": 1,
+ "results": [
+  {
+   "document_number": "2025-08573",
+   "title": "Rescinding Regulations for Loans for Minority Business Enterprises Seeking DOE Contracts and Assistance",
+   "type": "Rule",
+   "action": "Direct final rule (DFR); request for comments.",
+   "publication_date": "2025-05-16",
+   "comments_close_on": "2025-06-16",
+   "effective_on": "2025-07-15",
+   "regulation_id_numbers": [
+    "1903-AA23"
+   ],
+   "docket_ids": [
+    "DOE-HQ-2025-0014"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "DEPARTMENT OF ENERGY",
+     "name": "Energy Department",
+     "id": 136,
+     "url": "https://www.federalregister.gov/agencies/energy-department",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/136",
+     "parent_id": null,
+     "slug": "energy-department"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "800",
+     "title": 10
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2025/05/16/2025-08573/rescinding-regulations-for-loans-for-minority-business-enterprises-seeking-doe-contracts-and",
+   "dates": "The final rule is effective July 15, 2025, unless significant adverse comments are received by June 16, 2025. Significant adverse comments oppose the rule and raise, alone or in combination, a serious enough issue related to each of the independent grounds for the rule that a substantive response is required. If significant adverse comments are received, notice will be published in the Federal Register before the effective date either withdrawing the rule or issuing a new final rule which responds to significant adverse comments.",
+   "subtype": null
+  },
+  {
+   "document_number": "2025-13127",
+   "title": "Rescinding Regulations for Loans for Minority Business Enterprises Seeking DOE Contracts and Assistance",
+   "type": "Rule",
+   "action": "Direct final rule; delay of effective date.",
+   "publication_date": "2025-07-14",
+   "comments_close_on": null,
+   "effective_on": "2025-09-12",
+   "regulation_id_numbers": [
+    "1903-AA23"
+   ],
+   "docket_ids": [
+    "DOE-HQ-2025-0014"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "DEPARTMENT OF ENERGY",
+     "name": "Energy Department",
+     "id": 136,
+     "url": "https://www.federalregister.gov/agencies/energy-department",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/136",
+     "parent_id": null,
+     "slug": "energy-department"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "800",
+     "title": 10
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2025/07/14/2025-13127/rescinding-regulations-for-loans-for-minority-business-enterprises-seeking-doe-contracts-and",
+   "dates": "As of July 14, 2025, the effective date of the direct final rule published May 16, 2025, at 90 FR 20769, is extended to September 12, 2025.",
+   "subtype": null
+  },
+  {
+   "document_number": "2025-17429",
+   "title": "Rescinding Regulations for Loans for Minority Business Enterprises Seeking DOE Contracts and Assistance",
+   "type": "Rule",
+   "action": "Direct final rule; further delay of effective date.",
+   "publication_date": "2025-09-10",
+   "comments_close_on": null,
+   "effective_on": "2025-12-09",
+   "regulation_id_numbers": [
+    "1903-AA23"
+   ],
+   "docket_ids": [
+    "DOE-HQ-2025-0014"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "DEPARTMENT OF ENERGY",
+     "name": "Energy Department",
+     "id": 136,
+     "url": "https://www.federalregister.gov/agencies/energy-department",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/136",
+     "parent_id": null,
+     "slug": "energy-department"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "800",
+     "title": 10
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2025/09/10/2025-17429/rescinding-regulations-for-loans-for-minority-business-enterprises-seeking-doe-contracts-and",
+   "dates": "As of September 10, 2025, the effective date of the direct final rule published May 16, 2025, at 90 FR 20769, delayed until September 12, 2025 (90 FR 31137) is further delayed until December 9, 2025.",
+   "subtype": null
+  },
+  {
+   "document_number": "2025-22324",
+   "title": "Rescinding Regulations for Loans for Minority Business Enterprises Seeking DOE Contracts and Assistance",
+   "type": "Rule",
+   "action": "Direct final rule; further delay of effective date.",
+   "publication_date": "2025-12-09",
+   "comments_close_on": null,
+   "effective_on": "2026-03-09",
+   "regulation_id_numbers": [
+    "1903-AA23"
+   ],
+   "docket_ids": [
+    "DOE-HQ-2025-0014"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "DEPARTMENT OF ENERGY",
+     "name": "Energy Department",
+     "id": 136,
+     "url": "https://www.federalregister.gov/agencies/energy-department",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/136",
+     "parent_id": null,
+     "slug": "energy-department"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "800",
+     "title": 10
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2025/12/09/2025-22324/rescinding-regulations-for-loans-for-minority-business-enterprises-seeking-doe-contracts-and",
+   "dates": "As of December 9, 2025, the effective date of the direct final rule published May 16, 2025, at 90 FR 20769, delayed until September 12, 2025 (90 FR 31137), further delayed until December 9, 2025 (90 FR 43539), is further delayed until March 9, 2026.",
+   "subtype": null
+  },
+  {
+   "document_number": "2026-04454",
+   "title": "Rescinding Regulations for Loans for Minority Business Enterprises Seeking DOE Contracts and Assistance",
+   "type": "Rule",
+   "action": "Direct final rule; further delay of effective date.",
+   "publication_date": "2026-03-06",
+   "comments_close_on": null,
+   "effective_on": "2026-06-04",
+   "regulation_id_numbers": [
+    "1903-AA23"
+   ],
+   "docket_ids": [
+    "DOE-HQ-2025-0014"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "DEPARTMENT OF ENERGY",
+     "name": "Energy Department",
+     "id": 136,
+     "url": "https://www.federalregister.gov/agencies/energy-department",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/136",
+     "parent_id": null,
+     "slug": "energy-department"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "800",
+     "title": 10
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2026/03/06/2026-04454/rescinding-regulations-for-loans-for-minority-business-enterprises-seeking-doe-contracts-and",
+   "dates": "As of March 6, 2026, the effective date of the direct final rule published May 16, 2025, at 90 FR 20769, delayed until September 12, 2025 (90 FR 31137), further delayed until December 9, 2025 (90 FR 43539), and again delayed until March 9, 2026 (90 FR 56967) is further delayed until June 4, 2026.",
+   "subtype": null
+  },
+  {
+   "document_number": "2026-11057",
+   "title": "Rescinding Regulations for Loans for Minority Business Enterprises Seeking DOE Contracts and Assistance",
+   "type": "Rule",
+   "action": "Direct final rule; further delay of effective date.",
+   "publication_date": "2026-06-03",
+   "comments_close_on": null,
+   "effective_on": "2026-09-01",
+   "regulation_id_numbers": [
+    "1903-AA23"
+   ],
+   "docket_ids": [
+    "DOE-HQ-2025-0014"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "DEPARTMENT OF ENERGY",
+     "name": "Energy Department",
+     "id": 136,
+     "url": "https://www.federalregister.gov/agencies/energy-department",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/136",
+     "parent_id": null,
+     "slug": "energy-department"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "800",
+     "title": 10
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2026/06/03/2026-11057/rescinding-regulations-for-loans-for-minority-business-enterprises-seeking-doe-contracts-and",
+   "dates": "As of June 3, 2026, the effective date of the direct final rule published May 16, 2025, at 90 FR 20769, delayed until September 12, 2025 (90 FR 31137), further delayed until December 9, 2025 (90 FR 43539), again delayed until March 9, 2026 (90 FR 56967) and then until June 4, 2026 (91 FR 10954) is further delayed until September 1, 2026.",
+   "subtype": null
+  },
+  {
+   "document_number": "2026-17381",
+   "title": "Rescinding Regulations for Loans for Minority Business Enterprises Seeking DOE Contracts and Assistance",
+   "type": "Rule",
+   "action": "Direct final rule; further delay of effective date.",
+   "publication_date": "2026-08-26",
+   "comments_close_on": null,
+   "effective_on": "2025-05-16",
+   "regulation_id_numbers": [
+    "1903-AA23"
+   ],
+   "docket_ids": [
+    "DOE-HQ-2025-0014"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "DEPARTMENT OF ENERGY",
+     "name": "Energy Department",
+     "id": 136,
+     "url": "https://www.federalregister.gov/agencies/energy-department",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/136",
+     "parent_id": null,
+     "slug": "energy-department"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "800",
+     "title": 10
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2026/08/26/2026-17381/rescinding-regulations-for-loans-for-minority-business-enterprises-seeking-doe-contracts-and",
+   "dates": "As of August 26, 2026, the effective date of the direct final rule published May 16, 2025, at 90 FR 20769, delayed until September 12, 2025 (90 FR 31137), further delayed until December 9, 2025 (90 FR 43539), again delayed until March 9, 2026 (90 FR 56967) and then June 4, 2026 (91 FR 10954), and then delayed until September 1, 2026 (91 FR 33069) is further delayed until December 24, 2026.",
+   "subtype": null
+  }
+ ]
+}

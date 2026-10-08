@@ -1,0 +1,920 @@
+{
+ "description": "Documents matching 'methane' and of type Rule or Proposed Rule",
+ "count": 1784,
+ "total_pages": 50,
+ "next_page_url": "https://www.federalregister.gov/api/v1/documents?conditions%5Bterm%5D=methane&conditions%5Btype%5D%5B%5D=RULE&conditions%5Btype%5D%5B%5D=PRORULE&fields%5B%5D=document_number&fields%5B%5D=title&fields%5B%5D=type&fields%5B%5D=action&fields%5B%5D=publication_date&fields%5B%5D=comments_close_on&fields%5B%5D=effective_on&fields%5B%5D=regulation_id_numbers&fields%5B%5D=docket_ids&fields%5B%5D=correction_of&fields%5B%5D=corrections&fields%5B%5D=agencies&fields%5B%5D=cfr_references&fields%5B%5D=html_url&fields%5B%5D=dates&fields%5B%5D=subtype&format=json&order=relevance&page=2&per_page=20",
+ "results": [
+  {
+   "document_number": "2024-26643",
+   "title": "Waste Emissions Charge for Petroleum and Natural Gas Systems: Procedures for Facilitating Compliance, Including Netting and Exemptions",
+   "type": "Rule",
+   "action": "Final rule.",
+   "publication_date": "2024-11-18",
+   "comments_close_on": null,
+   "effective_on": "2025-01-17",
+   "regulation_id_numbers": [
+    "2060-AW02"
+   ],
+   "docket_ids": [
+    "EPA-HQ-OAR-2023-0434",
+    "FRL-10246.1-03-OAR"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "ENVIRONMENTAL PROTECTION AGENCY",
+     "name": "Environmental Protection Agency",
+     "id": 145,
+     "url": "https://www.federalregister.gov/agencies/environmental-protection-agency",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/145",
+     "parent_id": null,
+     "slug": "environmental-protection-agency"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "2",
+     "title": 40
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "98",
+     "title": 40
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "99",
+     "title": 40
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2024/11/18/2024-26643/waste-emissions-charge-for-petroleum-and-natural-gas-systems-procedures-for-facilitating-compliance",
+   "dates": "This final rule is effective January 17, 2025.",
+   "subtype": null
+  },
+  {
+   "document_number": "2025-08688",
+   "title": "Congressional Review Act Revocation of Waste Emissions Charge for Petroleum and Natural Gas Systems: Procedures for Facilitating Compliance, Including Netting and Exemptions",
+   "type": "Rule",
+   "action": "Final rule; CRA revocation.",
+   "publication_date": "2025-05-19",
+   "comments_close_on": null,
+   "effective_on": "2025-05-19",
+   "regulation_id_numbers": [
+    "2060-AW54"
+   ],
+   "docket_ids": [
+    "EPA-HQ-OAR-2023-0434",
+    "FRL-12723-01-OAR"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "ENVIRONMENTAL PROTECTION AGENCY",
+     "name": "Environmental Protection Agency",
+     "id": 145,
+     "url": "https://www.federalregister.gov/agencies/environmental-protection-agency",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/145",
+     "parent_id": null,
+     "slug": "environmental-protection-agency"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "2",
+     "title": 40
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "98",
+     "title": 40
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "99",
+     "title": 40
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2025/05/19/2025-08688/congressional-review-act-revocation-of-waste-emissions-charge-for-petroleum-and-natural-gas-systems",
+   "dates": "This final rule is effective May 19, 2025.",
+   "subtype": null
+  },
+  {
+   "document_number": "2024-12437",
+   "title": "Safety Zone; Gulf Intracoastal Waterway, Corpus Christi, TX",
+   "type": "Rule",
+   "action": "Temporary final rule.",
+   "publication_date": "2024-06-06",
+   "comments_close_on": null,
+   "effective_on": "2024-06-06",
+   "regulation_id_numbers": [
+    "1625-AA00"
+   ],
+   "docket_ids": [
+    "Docket Number USCG-2024-0494"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "DEPARTMENT OF HOMELAND SECURITY",
+     "name": "Homeland Security Department",
+     "id": 227,
+     "url": "https://www.federalregister.gov/agencies/homeland-security-department",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/227",
+     "parent_id": null,
+     "slug": "homeland-security-department"
+    },
+    {
+     "raw_name": "Coast Guard",
+     "name": "Coast Guard",
+     "id": 53,
+     "url": "https://www.federalregister.gov/agencies/coast-guard",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/53",
+     "parent_id": 227,
+     "slug": "coast-guard"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "165",
+     "title": 33
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2024/06/06/2024-12437/safety-zone-gulf-intracoastal-waterway-corpus-christi-tx",
+   "dates": "This rule is effective without actual notice from June 6, 2024 through 11:59 p.m. on June 12, 2024. For the purposes of enforcement, actual notice will be used from May 29, 2024 until June 6, 2024.",
+   "subtype": null
+  },
+  {
+   "document_number": "2024-00938",
+   "title": "Waste Emissions Charge for Petroleum and Natural Gas Systems",
+   "type": "Proposed Rule",
+   "action": "Proposed rule.",
+   "publication_date": "2024-01-26",
+   "comments_close_on": "2024-03-11",
+   "effective_on": null,
+   "regulation_id_numbers": [
+    "2060-AW02"
+   ],
+   "docket_ids": [
+    "EPA-HQ-OAR-2023-0434",
+    "FRL-10246.1-01-OAR"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "ENVIRONMENTAL PROTECTION AGENCY",
+     "name": "Environmental Protection Agency",
+     "id": 145,
+     "url": "https://www.federalregister.gov/agencies/environmental-protection-agency",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/145",
+     "parent_id": null,
+     "slug": "environmental-protection-agency"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "2",
+     "title": 40
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "99",
+     "title": 40
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2024/01/26/2024-00938/waste-emissions-charge-for-petroleum-and-natural-gas-systems",
+   "dates": "Comments. Comments must be received on or before March 11, 2024. Under the Paperwork Reduction Act (PRA), comments on the information collection provisions are best assured of consideration if the Office of Management and Budget (OMB) receives a copy of your comments on or before February 26, 2024.",
+   "subtype": null
+  },
+  {
+   "document_number": "2024-08988",
+   "title": "Greenhouse Gas Reporting Rule: Revisions and Confidentiality Determinations for Petroleum and Natural Gas Systems",
+   "type": "Rule",
+   "action": "Final rule.",
+   "publication_date": "2024-05-14",
+   "comments_close_on": null,
+   "effective_on": "2025-01-01",
+   "regulation_id_numbers": [
+    "2060-AV83"
+   ],
+   "docket_ids": [
+    "EPA-HQ-OAR-2023-0234",
+    "FRL-10246-02-OAR"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "ENVIRONMENTAL PROTECTION AGENCY",
+     "name": "Environmental Protection Agency",
+     "id": 145,
+     "url": "https://www.federalregister.gov/agencies/environmental-protection-agency",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/145",
+     "parent_id": null,
+     "slug": "environmental-protection-agency"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "98",
+     "title": 40
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2024/05/14/2024-08988/greenhouse-gas-reporting-rule-revisions-and-confidentiality-determinations-for-petroleum-and-natural",
+   "dates": "This rule is effective January 1, 2025, except for Sec. 98.233 (amendatory instruction 12), Sec. 98.236 (amendatory instruction 16), and Sec. 98.238 (amendatory instruction 19) which are effective July 15, 2024. The incorporation by reference of certain material listed in this final rule is approved by the Director of the Federal Register as of January 1, 2025.",
+   "subtype": null
+  },
+  {
+   "document_number": "2026-04991",
+   "title": "Air Plan Approval; Connecticut; Revision to the State Implementation Plan for Inclusion of Consent Order No. 8383-Algonquin Gas Transmission, LLC and Negative Declaration for Rubber Tire Manufacturing Sources",
+   "type": "Proposed Rule",
+   "action": "Proposed rule.",
+   "publication_date": "2026-03-13",
+   "comments_close_on": "2026-04-13",
+   "effective_on": null,
+   "regulation_id_numbers": [],
+   "docket_ids": [
+    "EPA-R01-OAR-2025-0656",
+    "FRL-13272-01-R1"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "ENVIRONMENTAL PROTECTION AGENCY",
+     "name": "Environmental Protection Agency",
+     "id": 145,
+     "url": "https://www.federalregister.gov/agencies/environmental-protection-agency",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/145",
+     "parent_id": null,
+     "slug": "environmental-protection-agency"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "52",
+     "title": 40
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2026/03/13/2026-04991/air-plan-approval-connecticut-revision-to-the-state-implementation-plan-for-inclusion-of-consent",
+   "dates": "Written comments must be received on or before April 13, 2026.",
+   "subtype": null
+  },
+  {
+   "document_number": "2025-11743",
+   "title": "Powered Air Purifying Respirators (PAPRs) in Underground Mines",
+   "type": "Proposed Rule",
+   "action": "Proposed rule; request for comments.",
+   "publication_date": "2025-07-01",
+   "comments_close_on": "2025-07-31",
+   "effective_on": null,
+   "regulation_id_numbers": [
+    "1219-AC17"
+   ],
+   "docket_ids": [
+    "Docket No. MSHA-2025-0089"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "DEPARTMENT OF LABOR",
+     "name": "Labor Department",
+     "id": 271,
+     "url": "https://www.federalregister.gov/agencies/labor-department",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/271",
+     "parent_id": null,
+     "slug": "labor-department"
+    },
+    {
+     "raw_name": "Mine Safety and Health Administration",
+     "name": "Mine Safety and Health Administration",
+     "id": 288,
+     "url": "https://www.federalregister.gov/agencies/mine-safety-and-health-administration",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/288",
+     "parent_id": 271,
+     "slug": "mine-safety-and-health-administration"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "57",
+     "title": 30
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "75",
+     "title": 30
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2025/07/01/2025-11743/powered-air-purifying-respirators-paprs-in-underground-mines",
+   "dates": "Comments must be received on or before July 31, 2025.",
+   "subtype": null
+  },
+  {
+   "document_number": "2025-11741",
+   "title": "Electronic Surveying Equipment in Underground Mines",
+   "type": "Proposed Rule",
+   "action": "Proposed rule; request for comments.",
+   "publication_date": "2025-07-01",
+   "comments_close_on": "2025-07-31",
+   "effective_on": null,
+   "regulation_id_numbers": [
+    "1219-AB89"
+   ],
+   "docket_ids": [
+    "Docket No. MSHA-2025-0087"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "DEPARTMENT OF LABOR",
+     "name": "Labor Department",
+     "id": 271,
+     "url": "https://www.federalregister.gov/agencies/labor-department",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/271",
+     "parent_id": null,
+     "slug": "labor-department"
+    },
+    {
+     "raw_name": "Mine Safety and Health Administration",
+     "name": "Mine Safety and Health Administration",
+     "id": 288,
+     "url": "https://www.federalregister.gov/agencies/mine-safety-and-health-administration",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/288",
+     "parent_id": 271,
+     "slug": "mine-safety-and-health-administration"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "75",
+     "title": 30
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2025/07/01/2025-11741/electronic-surveying-equipment-in-underground-mines",
+   "dates": "Comments must be received on or before July 31, 2025.",
+   "subtype": null
+  },
+  {
+   "document_number": "2026-07894",
+   "title": "Kentucky; Approval and Promulgation of State Plan for Designated Facilities and Pollutants; Control of Emissions From Existing Municipal Solid Waste Landfills",
+   "type": "Proposed Rule",
+   "action": "Proposed rule.",
+   "publication_date": "2026-04-23",
+   "comments_close_on": "2026-05-26",
+   "effective_on": null,
+   "regulation_id_numbers": [],
+   "docket_ids": [
+    "EPA-R04-OAR-2025-1180",
+    "FRL-12940-01-R4"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "ENVIRONMENTAL PROTECTION AGENCY",
+     "name": "Environmental Protection Agency",
+     "id": 145,
+     "url": "https://www.federalregister.gov/agencies/environmental-protection-agency",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/145",
+     "parent_id": null,
+     "slug": "environmental-protection-agency"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "62",
+     "title": 40
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2026/04/23/2026-07894/kentucky-approval-and-promulgation-of-state-plan-for-designated-facilities-and-pollutants-control-of",
+   "dates": "Comments must be received on or before May 26, 2026.",
+   "subtype": null
+  },
+  {
+   "document_number": "2026-12796",
+   "title": "Improving and Eliminating Regulations; Use of Permissible Flame Safety Lamps in Underground Coal Mines",
+   "type": "Rule",
+   "action": "Final rule.",
+   "publication_date": "2026-06-25",
+   "comments_close_on": null,
+   "effective_on": "2026-07-27",
+   "regulation_id_numbers": [
+    "1219-AC04"
+   ],
+   "docket_ids": [
+    "Docket No. MSHA-2025-0073"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "DEPARTMENT OF LABOR",
+     "name": "Labor Department",
+     "id": 271,
+     "url": "https://www.federalregister.gov/agencies/labor-department",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/271",
+     "parent_id": null,
+     "slug": "labor-department"
+    },
+    {
+     "raw_name": "Mine Safety and Health Administration",
+     "name": "Mine Safety and Health Administration",
+     "id": 288,
+     "url": "https://www.federalregister.gov/agencies/mine-safety-and-health-administration",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/288",
+     "parent_id": 271,
+     "slug": "mine-safety-and-health-administration"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "75",
+     "title": 30
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2026/06/25/2026-12796/improving-and-eliminating-regulations-use-of-permissible-flame-safety-lamps-in-underground-coal",
+   "dates": "Effective date: July 27, 2026.",
+   "subtype": null
+  },
+  {
+   "document_number": "2024-18933",
+   "title": "Greenhouse Gas Reporting Rule: Revisions and Confidentiality Determinations for Petroleum and Natural Gas Systems; Correction",
+   "type": "Rule",
+   "action": "Final rule; correction and correcting amendments.",
+   "publication_date": "2024-09-04",
+   "comments_close_on": null,
+   "effective_on": "2025-01-01",
+   "regulation_id_numbers": [
+    "2060-AV49"
+   ],
+   "docket_ids": [
+    "EPA-HQ-OAR-2023-0234",
+    "FRL-10246-03-OAR"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "ENVIRONMENTAL PROTECTION AGENCY",
+     "name": "Environmental Protection Agency",
+     "id": 145,
+     "url": "https://www.federalregister.gov/agencies/environmental-protection-agency",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/145",
+     "parent_id": null,
+     "slug": "environmental-protection-agency"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "98",
+     "title": 40
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2024/09/04/2024-18933/greenhouse-gas-reporting-rule-revisions-and-confidentiality-determinations-for-petroleum-and-natural",
+   "dates": "The Federal Register corrections, numbers 1.a through 1.ff and 2.a through 2.q, are effective January 1, 2025. The correcting amendments in instructions 2 and 3, correcting Sec. Sec. 98.233 and 98.236, respectively, are effective October 4, 2024.",
+   "subtype": null
+  },
+  {
+   "document_number": "2026-17495",
+   "title": "Approval and Promulgation of State Air Quality Plans for Designated Facilities and Pollutants; Puerto Rico; Negative Declaration for the Oil and Gas Industry",
+   "type": "Proposed Rule",
+   "action": "Proposed rule.",
+   "publication_date": "2026-08-27",
+   "comments_close_on": "2026-09-28",
+   "effective_on": null,
+   "regulation_id_numbers": [],
+   "docket_ids": [
+    "EPA-R02-OAR-2026-2741",
+    "FRL-13326-01-R2"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "ENVIRONMENTAL PROTECTION AGENCY",
+     "name": "Environmental Protection Agency",
+     "id": 145,
+     "url": "https://www.federalregister.gov/agencies/environmental-protection-agency",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/145",
+     "parent_id": null,
+     "slug": "environmental-protection-agency"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "62",
+     "title": 40
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2026/08/27/2026-17495/approval-and-promulgation-of-state-air-quality-plans-for-designated-facilities-and-pollutants-puerto",
+   "dates": "Written comments must be received on or before September 28, 2026.",
+   "subtype": null
+  },
+  {
+   "document_number": "2025-14531",
+   "title": "Extension of Deadlines in Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review Final Rule",
+   "type": "Rule",
+   "action": "Interim final rule; request for comments.",
+   "publication_date": "2025-07-31",
+   "comments_close_on": "2025-09-02",
+   "effective_on": "2025-07-31",
+   "regulation_id_numbers": [
+    "2060-AW61"
+   ],
+   "docket_ids": [
+    "EPA-HQ-OAR-2025-0162",
+    "FRL-12675-01-OAR"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "ENVIRONMENTAL PROTECTION AGENCY",
+     "name": "Environmental Protection Agency",
+     "id": 145,
+     "url": "https://www.federalregister.gov/agencies/environmental-protection-agency",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/145",
+     "parent_id": null,
+     "slug": "environmental-protection-agency"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "60",
+     "title": 40
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2025/07/31/2025-14531/extension-of-deadlines-in-standards-of-performance-for-new-reconstructed-and-modified-sources-and",
+   "dates": "This interim final rule is effective on July 31, 2025. Comments on this interim final rule must be received on or before September 2, 2025.",
+   "subtype": null
+  },
+  {
+   "document_number": "2025-11436",
+   "title": "Hazardous Materials: Liquefied Natural Gas by Rail",
+   "type": "Rule",
+   "action": "Notification of conforming amendments.",
+   "publication_date": "2025-06-23",
+   "comments_close_on": null,
+   "effective_on": "2025-06-23",
+   "regulation_id_numbers": [
+    "2137-AF40"
+   ],
+   "docket_ids": [
+    "Docket No. PHMSA-2018-0025 (HM-264)"
+   ],
+   "correction_of": null,
+   "corrections": [
+    "https://www.federalregister.gov/api/v1/documents/C1-2025-11436"
+   ],
+   "agencies": [
+    {
+     "raw_name": "DEPARTMENT OF TRANSPORTATION",
+     "name": "Transportation Department",
+     "id": 492,
+     "url": "https://www.federalregister.gov/agencies/transportation-department",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/492",
+     "parent_id": null,
+     "slug": "transportation-department"
+    },
+    {
+     "raw_name": "Pipeline and Hazardous Materials Safety Administration",
+     "name": "Pipeline and Hazardous Materials Safety Administration",
+     "id": 408,
+     "url": "https://www.federalregister.gov/agencies/pipeline-and-hazardous-materials-safety-administration",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/408",
+     "parent_id": 492,
+     "slug": "pipeline-and-hazardous-materials-safety-administration"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "172",
+     "title": 49
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "173",
+     "title": 49
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "174",
+     "title": 49
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "179",
+     "title": 49
+    },
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "180",
+     "title": 49
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2025/06/23/2025-11436/hazardous-materials-liquefied-natural-gas-by-rail",
+   "dates": "These amendments are effective as of June 23, 2025.",
+   "subtype": null
+  },
+  {
+   "document_number": "2026-05637",
+   "title": "Approval and Promulgation of State Plans for Designated Facilities and Pollutants; West Virginia; Control of Emissions From Existing Municipal Solid Waste Landfills",
+   "type": "Proposed Rule",
+   "action": "Proposed rule.",
+   "publication_date": "2026-03-23",
+   "comments_close_on": "2026-04-22",
+   "effective_on": null,
+   "regulation_id_numbers": [],
+   "docket_ids": [
+    "EPA-R03-OAR-2023-0230",
+    "FRL-9329-01-R3"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "ENVIRONMENTAL PROTECTION AGENCY",
+     "name": "Environmental Protection Agency",
+     "id": 145,
+     "url": "https://www.federalregister.gov/agencies/environmental-protection-agency",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/145",
+     "parent_id": null,
+     "slug": "environmental-protection-agency"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "62",
+     "title": 40
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2026/03/23/2026-05637/approval-and-promulgation-of-state-plans-for-designated-facilities-and-pollutants-west-virginia",
+   "dates": "Written comments must be received on or before April 22, 2026.",
+   "subtype": null
+  },
+  {
+   "document_number": "2026-06808",
+   "title": "Reconsideration of Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review",
+   "type": "Rule",
+   "action": "Final rule.",
+   "publication_date": "2026-04-09",
+   "comments_close_on": null,
+   "effective_on": "2026-06-08",
+   "regulation_id_numbers": [
+    "2060-AW35"
+   ],
+   "docket_ids": [
+    "EPA-HQ-OAR-2024-0358",
+    "FRL-12031-02-OAR"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "ENVIRONMENTAL PROTECTION AGENCY",
+     "name": "Environmental Protection Agency",
+     "id": 145,
+     "url": "https://www.federalregister.gov/agencies/environmental-protection-agency",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/145",
+     "parent_id": null,
+     "slug": "environmental-protection-agency"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "60",
+     "title": 40
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2026/04/09/2026-06808/reconsideration-of-standards-of-performance-for-new-reconstructed-and-modified-sources-and-emissions",
+   "dates": "This final rule is effective on June 8, 2026. The incorporation by reference of certain material listed in the rule is approved by the Director of the Federal Register as of June 8, 2026.",
+   "subtype": null
+  },
+  {
+   "document_number": "2024-31513",
+   "title": "Credit for Production of Clean Hydrogen and Energy Credit",
+   "type": "Rule",
+   "action": "Final regulations.",
+   "publication_date": "2025-01-10",
+   "comments_close_on": null,
+   "effective_on": "2025-01-10",
+   "regulation_id_numbers": [
+    "1545-BQ97"
+   ],
+   "docket_ids": [
+    "TD 10023"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "DEPARTMENT OF THE TREASURY",
+     "name": "Treasury Department",
+     "id": 497,
+     "url": "https://www.federalregister.gov/agencies/treasury-department",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+     "parent_id": null,
+     "slug": "treasury-department"
+    },
+    {
+     "raw_name": "Internal Revenue Service",
+     "name": "Internal Revenue Service",
+     "id": 254,
+     "url": "https://www.federalregister.gov/agencies/internal-revenue-service",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/254",
+     "parent_id": 497,
+     "slug": "internal-revenue-service"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "1",
+     "title": 26
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2025/01/10/2024-31513/credit-for-production-of-clean-hydrogen-and-energy-credit",
+   "dates": "Effective date: These regulations are effective January 10, 2025.",
+   "subtype": null
+  },
+  {
+   "document_number": "2025-00196",
+   "title": "Section 45Y Clean Electricity Production Credit and Section 48E Clean Electricity Investment Credit",
+   "type": "Rule",
+   "action": "Final regulations.",
+   "publication_date": "2025-01-15",
+   "comments_close_on": null,
+   "effective_on": "2025-01-15",
+   "regulation_id_numbers": [
+    "1545-BR17"
+   ],
+   "docket_ids": [
+    "TD 10024"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "DEPARTMENT OF THE TREASURY",
+     "name": "Treasury Department",
+     "id": 497,
+     "url": "https://www.federalregister.gov/agencies/treasury-department",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+     "parent_id": null,
+     "slug": "treasury-department"
+    },
+    {
+     "raw_name": "Internal Revenue Service",
+     "name": "Internal Revenue Service",
+     "id": 254,
+     "url": "https://www.federalregister.gov/agencies/internal-revenue-service",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/254",
+     "parent_id": 497,
+     "slug": "internal-revenue-service"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "1",
+     "title": 26
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2025/01/15/2025-00196/section-45y-clean-electricity-production-credit-and-section-48e-clean-electricity-investment-credit",
+   "dates": "Effective date: These regulations are effective on January 15, 2025.",
+   "subtype": null
+  },
+  {
+   "document_number": "2025-17923",
+   "title": "Reconsideration of the Greenhouse Gas Reporting Program",
+   "type": "Proposed Rule",
+   "action": "Proposed rule.",
+   "publication_date": "2025-09-16",
+   "comments_close_on": "2025-11-03",
+   "effective_on": null,
+   "regulation_id_numbers": [
+    "2060-AW76"
+   ],
+   "docket_ids": [
+    "EPA-HQ-OAR-2025-0186",
+    "FRL-12720-01-OAR"
+   ],
+   "correction_of": null,
+   "corrections": [
+    "https://www.federalregister.gov/api/v1/documents/C1-2025-17923"
+   ],
+   "agencies": [
+    {
+     "raw_name": "ENVIRONMENTAL PROTECTION AGENCY",
+     "name": "Environmental Protection Agency",
+     "id": 145,
+     "url": "https://www.federalregister.gov/agencies/environmental-protection-agency",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/145",
+     "parent_id": null,
+     "slug": "environmental-protection-agency"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "98",
+     "title": 40
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2025/09/16/2025-17923/reconsideration-of-the-greenhouse-gas-reporting-program",
+   "dates": "Comments. Comments must be received on or before November 3, 2025. Comments on the information collection provisions submitted to the Office of Management and Budget (OMB) under the Paperwork Reduction Act (PRA) are best assured of consideration by OMB if OMB receives a copy of your comments on or before October 16, 2025.",
+   "subtype": null
+  },
+  {
+   "document_number": "2025-21788",
+   "title": "Oil and Natural Gas Sector Climate Review: Extension of Deadlines in Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources",
+   "type": "Rule",
+   "action": "Final rule.",
+   "publication_date": "2025-12-03",
+   "comments_close_on": null,
+   "effective_on": "2025-12-03",
+   "regulation_id_numbers": [
+    "2060-AW61"
+   ],
+   "docket_ids": [
+    "EPA-HQ-OAR-2025-0162",
+    "FRL-12675-02-OAR"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "ENVIRONMENTAL PROTECTION AGENCY",
+     "name": "Environmental Protection Agency",
+     "id": 145,
+     "url": "https://www.federalregister.gov/agencies/environmental-protection-agency",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/145",
+     "parent_id": null,
+     "slug": "environmental-protection-agency"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "60",
+     "title": 40
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2025/12/03/2025-21788/oil-and-natural-gas-sector-climate-review-extension-of-deadlines-in-standards-of-performance-for-new",
+   "dates": "This final rule is effective on December 3, 2025.",
+   "subtype": null
+  }
+ ]
+}

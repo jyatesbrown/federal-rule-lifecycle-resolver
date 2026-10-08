@@ -1,0 +1,166 @@
+{
+  "data" : [ {
+    "type" : "documents",
+    "id" : "EPA-HQ-OAR-2021-0317-1460",
+    "attributes" : {
+      "agencyId" : "EPA",
+      "objectId" : "090000648551e28a",
+      "frDocNum" : "2022-24675",
+      "documentType" : "Proposed Rule",
+      "withdrawn" : false,
+      "highlightedContent" : "",
+      "commentEndDate" : "2023-02-14T04:59:59Z",
+      "commentStartDate" : "2022-12-06T05:00:00Z",
+      "lastModifiedDate" : "2024-10-18T01:00:57Z",
+      "openForComment" : false,
+      "withinCommentPeriod" : false,
+      "postedDate" : "2022-12-06T05:00:00Z",
+      "title" : "Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review",
+      "docketId" : "EPA-HQ-OAR-2021-0317",
+      "subtype" : "Supplemental Notice of Proposed Rulemaking (SNPRM)",
+      "allowLateComments" : false
+    }
+  }, {
+    "type" : "documents",
+    "id" : "EPA-HQ-OAR-2021-0317-4057",
+    "attributes" : {
+      "agencyId" : "EPA",
+      "objectId" : "0900006486611432",
+      "frDocNum" : "2024-13206",
+      "documentType" : "Rule",
+      "withdrawn" : false,
+      "highlightedContent" : "",
+      "commentEndDate" : "2024-09-04T03:59:59Z",
+      "commentStartDate" : "2024-08-01T04:00:00Z",
+      "lastModifiedDate" : "2025-07-23T09:00:21Z",
+      "openForComment" : false,
+      "withinCommentPeriod" : false,
+      "postedDate" : "2024-08-01T04:00:00Z",
+      "title" : "Guidance: Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review Final rule; Corrections",
+      "docketId" : "EPA-HQ-OAR-2021-0317",
+      "subtype" : "Interim Final Rule",
+      "allowLateComments" : false
+    }
+  }, {
+    "type" : "documents",
+    "id" : "EPA-HQ-OAR-2021-0317-3853",
+    "attributes" : {
+      "agencyId" : "EPA",
+      "objectId" : "0900006486469ceb",
+      "frDocNum" : "2024-00366",
+      "documentType" : "Rule",
+      "withdrawn" : false,
+      "highlightedContent" : "",
+      "commentEndDate" : null,
+      "commentStartDate" : "2024-03-08T05:00:00Z",
+      "lastModifiedDate" : "2024-03-09T01:42:51Z",
+      "openForComment" : false,
+      "withinCommentPeriod" : false,
+      "postedDate" : "2024-03-08T05:00:00Z",
+      "title" : "Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review",
+      "docketId" : "EPA-HQ-OAR-2021-0317",
+      "subtype" : "Final Rule",
+      "allowLateComments" : false
+    }
+  }, {
+    "type" : "documents",
+    "id" : "EPA-HQ-OAR-2021-0317-0354",
+    "attributes" : {
+      "agencyId" : "EPA",
+      "objectId" : "0900006484ed1d5d",
+      "frDocNum" : "2021-27312",
+      "documentType" : "Proposed Rule",
+      "withdrawn" : false,
+      "highlightedContent" : "",
+      "commentEndDate" : null,
+      "commentStartDate" : null,
+      "lastModifiedDate" : "2021-12-17T14:15:22Z",
+      "openForComment" : false,
+      "withinCommentPeriod" : false,
+      "postedDate" : "2021-12-17T05:00:00Z",
+      "title" : "Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review; Extension of Comment Period",
+      "docketId" : "EPA-HQ-OAR-2021-0317",
+      "subtype" : "Extension of Comment Period",
+      "allowLateComments" : false
+    }
+  }, {
+    "type" : "documents",
+    "id" : "EPA-HQ-OAR-2021-0317-0001",
+    "attributes" : {
+      "agencyId" : "EPA",
+      "objectId" : "0900006484e4bd65",
+      "frDocNum" : "2021-24202",
+      "documentType" : "Proposed Rule",
+      "withdrawn" : false,
+      "highlightedContent" : "",
+      "commentEndDate" : "2022-02-01T04:59:59Z",
+      "commentStartDate" : "2021-11-15T05:00:00Z",
+      "lastModifiedDate" : "2023-08-25T01:02:54Z",
+      "openForComment" : false,
+      "withinCommentPeriod" : false,
+      "postedDate" : "2021-11-15T05:00:00Z",
+      "title" : "Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review",
+      "docketId" : "EPA-HQ-OAR-2021-0317",
+      "subtype" : null,
+      "allowLateComments" : false
+    }
+  } ],
+  "meta" : {
+    "aggregations" : {
+      "documentType" : [ {
+        "docCount" : 485,
+        "label" : "Supporting & Related Material"
+      }, {
+        "docCount" : 3,
+        "label" : "Proposed Rule"
+      }, {
+        "docCount" : 2,
+        "label" : "Rule"
+      } ],
+      "subtype" : [ {
+        "docCount" : 1,
+        "label" : "Extension of Comment Period"
+      }, {
+        "docCount" : 1,
+        "label" : "Final Rule"
+      }, {
+        "docCount" : 1,
+        "label" : "Interim Final Rule"
+      }, {
+        "docCount" : 1,
+        "label" : "Supplemental Notice of Proposed Rulemaking (SNPRM)"
+      } ],
+      "withinCommentPeriod" : [ {
+        "docCount" : 0,
+        "label" : "true"
+      }, {
+        "docCount" : 5,
+        "label" : "false"
+      } ],
+      "agencyId" : [ {
+        "docCount" : 5,
+        "value" : "EPA"
+      } ],
+      "commentEndDate" : [ ],
+      "postedDate" : [ ]
+    },
+    "filters" : {
+      "documentType" : [ {
+        "label" : "Proposed Rule",
+        "value" : "Proposed Rule"
+      }, {
+        "label" : "Rule",
+        "value" : "Rule"
+      } ]
+    },
+    "hasNextPage" : false,
+    "hasPreviousPage" : false,
+    "numberOfElements" : 5,
+    "pageNumber" : 1,
+    "pageSize" : 25,
+    "totalElements" : 5,
+    "totalPages" : 1,
+    "firstPage" : true,
+    "lastPage" : true
+  }
+}

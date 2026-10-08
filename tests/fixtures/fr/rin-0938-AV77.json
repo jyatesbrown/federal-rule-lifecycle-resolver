@@ -1,0 +1,151 @@
+{
+ "description": "Documents associated with RIN 0938-AV77 - ",
+ "count": 3,
+ "total_pages": 1,
+ "results": [
+  {
+   "document_number": "2026-06675",
+   "title": "Medicare Program; FY 2027 Inpatient Psychiatric Facilities Prospective Payment System-Rate Update",
+   "type": "Proposed Rule",
+   "action": "Proposed rule.",
+   "publication_date": "2026-04-07",
+   "comments_close_on": "2026-06-01",
+   "effective_on": null,
+   "regulation_id_numbers": [
+    "0938-AV77"
+   ],
+   "docket_ids": [
+    "CMS-1847-P"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES",
+     "name": "Health and Human Services Department",
+     "id": 221,
+     "url": "https://www.federalregister.gov/agencies/health-and-human-services-department",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/221",
+     "parent_id": null,
+     "slug": "health-and-human-services-department"
+    },
+    {
+     "raw_name": "Centers for Medicare & Medicaid Services",
+     "name": "Centers for Medicare & Medicaid Services",
+     "id": 45,
+     "url": "https://www.federalregister.gov/agencies/centers-for-medicare-medicaid-services",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/45",
+     "parent_id": 221,
+     "slug": "centers-for-medicare-medicaid-services"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "412",
+     "title": 42
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2026/04/07/2026-06675/medicare-program-fy-2027-inpatient-psychiatric-facilities-prospective-payment-system-rate-update",
+   "dates": "To be assured consideration, comments must be received at one of the addresses provided below by June 1, 2026.",
+   "subtype": null
+  },
+  {
+   "document_number": "2026-15588",
+   "title": "Medicare Program; FY 2027 Inpatient Psychiatric Facilities Prospective Payment System-Rate Update",
+   "type": "Rule",
+   "action": "Final rule.",
+   "publication_date": "2026-07-31",
+   "comments_close_on": null,
+   "effective_on": "2026-10-01",
+   "regulation_id_numbers": [
+    "0938-AV77"
+   ],
+   "docket_ids": [
+    "CMS-1847-F"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES",
+     "name": "Health and Human Services Department",
+     "id": 221,
+     "url": "https://www.federalregister.gov/agencies/health-and-human-services-department",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/221",
+     "parent_id": null,
+     "slug": "health-and-human-services-department"
+    },
+    {
+     "raw_name": "Centers for Medicare & Medicaid Services",
+     "name": "Centers for Medicare & Medicaid Services",
+     "id": 45,
+     "url": "https://www.federalregister.gov/agencies/centers-for-medicare-medicaid-services",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/45",
+     "parent_id": 221,
+     "slug": "centers-for-medicare-medicaid-services"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "412",
+     "title": 42
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2026/07/31/2026-15588/medicare-program-fy-2027-inpatient-psychiatric-facilities-prospective-payment-system-rate-update",
+   "dates": "These regulations are effective October 1, 2026.",
+   "subtype": null
+  },
+  {
+   "document_number": "2026-20134",
+   "title": "Medicare Program; FY 2027 Inpatient Psychiatric Facilities Prospective Payment System-Rate Update; Correction",
+   "type": "Rule",
+   "action": "Final rule; correction.",
+   "publication_date": "2026-10-01",
+   "comments_close_on": null,
+   "effective_on": "2026-10-01",
+   "regulation_id_numbers": [
+    "0938-AV77"
+   ],
+   "docket_ids": [
+    "CMS-1847-CN"
+   ],
+   "correction_of": null,
+   "corrections": [],
+   "agencies": [
+    {
+     "raw_name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES",
+     "name": "Health and Human Services Department",
+     "id": 221,
+     "url": "https://www.federalregister.gov/agencies/health-and-human-services-department",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/221",
+     "parent_id": null,
+     "slug": "health-and-human-services-department"
+    },
+    {
+     "raw_name": "Centers for Medicare & Medicaid Services",
+     "name": "Centers for Medicare & Medicaid Services",
+     "id": 45,
+     "url": "https://www.federalregister.gov/agencies/centers-for-medicare-medicaid-services",
+     "json_url": "https://www.federalregister.gov/api/v1/agencies/45",
+     "parent_id": 221,
+     "slug": "centers-for-medicare-medicaid-services"
+    }
+   ],
+   "cfr_references": [
+    {
+     "chapter": null,
+     "citation_url": null,
+     "part": "412",
+     "title": 42
+    }
+   ],
+   "html_url": "https://www.federalregister.gov/documents/2026/10/01/2026-20134/medicare-program-fy-2027-inpatient-psychiatric-facilities-prospective-payment-system-rate-update",
+   "dates": "This correction is effective October 1, 2026.",
+   "subtype": null
+  }
+ ]
+}
