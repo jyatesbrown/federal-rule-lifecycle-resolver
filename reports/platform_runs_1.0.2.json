@@ -1,0 +1,222 @@
+[
+ {
+  "case": "A exact FR doc",
+  "run": "QSw6mdNuxc23asgAd",
+  "runStatus": "SUCCEEDED",
+  "records": 1,
+  "status": "resolved",
+  "confidence": "high",
+  "stage": "effective",
+  "related": 4,
+  "candidates": 0,
+  "sources": {
+   "federalRegister": "success",
+   "regulationsGov": "success"
+  },
+  "billable": true,
+  "charged": {
+   "apify-actor-start": 1,
+   "rule-resolution": 1
+  },
+  "runtimeS": 3.913,
+  "usageUsd": 0.00021695394754244222
+ },
+ {
+  "case": "B RIN",
+  "run": "xiIBpNXh3yfDTd9Ca",
+  "runStatus": "SUCCEEDED",
+  "records": 1,
+  "status": "resolved",
+  "confidence": "high",
+  "stage": "effective",
+  "related": 4,
+  "candidates": 0,
+  "sources": {
+   "federalRegister": "success",
+   "regulationsGov": "success"
+  },
+  "billable": true,
+  "charged": {
+   "apify-actor-start": 1,
+   "rule-resolution": 1
+  },
+  "runtimeS": 4.231,
+  "usageUsd": 0.00022105261411600643
+ },
+ {
+  "case": "C docket",
+  "run": "yiX867YbbyxaxZlFj",
+  "runStatus": "SUCCEEDED",
+  "records": 1,
+  "status": "resolved",
+  "confidence": "high",
+  "stage": "effective",
+  "related": 4,
+  "candidates": 0,
+  "sources": {
+   "federalRegister": "success",
+   "regulationsGov": "success"
+  },
+  "billable": true,
+  "charged": {
+   "apify-actor-start": 1,
+   "rule-resolution": 1
+  },
+  "runtimeS": 4.092,
+  "usageUsd": 0.0002192797314723333
+ },
+ {
+  "case": "D natural language",
+  "run": "QOPhgqtVWxtGSoPey",
+  "runStatus": "SUCCEEDED",
+  "records": 1,
+  "status": "resolved",
+  "confidence": "medium",
+  "stage": "effective",
+  "related": 3,
+  "candidates": 0,
+  "sources": {
+   "federalRegister": "success",
+   "regulationsGov": "not_queried"
+  },
+  "billable": true,
+  "charged": {
+   "apify-actor-start": 1,
+   "rule-resolution": 1
+  },
+  "runtimeS": 3.848,
+  "usageUsd": 0.00021545950053301126
+ },
+ {
+  "case": "E ambiguous",
+  "run": "dy572LYdEl99O1E0S",
+  "runStatus": "SUCCEEDED",
+  "records": 1,
+  "status": "ambiguous",
+  "confidence": "low",
+  "stage": null,
+  "related": 0,
+  "candidates": 5,
+  "sources": {
+   "federalRegister": "success",
+   "regulationsGov": "not_queried"
+  },
+  "billable": false,
+  "charged": {
+   "apify-actor-start": 1,
+   "rule-resolution": 0
+  },
+  "runtimeS": 4.179,
+  "usageUsd": 0.00016987646527091664
+ },
+ {
+  "case": "F extension (proposal URL)",
+  "run": "XXJwGss9GxC8rEgvi",
+  "runStatus": "SUCCEEDED",
+  "records": 1,
+  "status": "resolved",
+  "confidence": "high",
+  "stage": "effective",
+  "related": 4,
+  "candidates": 0,
+  "sources": {
+   "federalRegister": "success",
+   "regulationsGov": "success"
+  },
+  "billable": true,
+  "charged": {
+   "apify-actor-start": 1,
+   "rule-resolution": 1
+  },
+  "runtimeS": 3.81,
+  "usageUsd": 0.0002161938976744811
+ },
+ {
+  "case": "G effective-date delay",
+  "run": "iUtcaLOyAUy099KSe",
+  "runStatus": "SUCCEEDED",
+  "records": 1,
+  "status": "resolved",
+  "confidence": "high",
+  "stage": "final_rule_not_yet_effective",
+  "related": 7,
+  "candidates": 0,
+  "sources": {
+   "federalRegister": "success",
+   "regulationsGov": "success"
+  },
+  "billable": true,
+  "charged": {
+   "apify-actor-start": 1,
+   "rule-resolution": 1
+  },
+  "runtimeS": 4.004,
+  "usageUsd": 0.00021853155244059034
+ },
+ {
+  "case": "withdrawal",
+  "run": "ucHvOjcBfniBSi5jM",
+  "runStatus": "SUCCEEDED",
+  "records": 1,
+  "status": "resolved",
+  "confidence": "high",
+  "stage": "withdrawn",
+  "related": 2,
+  "candidates": 0,
+  "sources": {
+   "federalRegister": "success",
+   "regulationsGov": "success"
+  },
+  "billable": true,
+  "charged": {
+   "apify-actor-start": 1,
+   "rule-resolution": 1
+  },
+  "runtimeS": 3.848,
+  "usageUsd": 0.00021631864560809402
+ },
+ {
+  "case": "I conflicting",
+  "run": "m4azcwjSsSL1EKt42",
+  "runStatus": "SUCCEEDED",
+  "records": 1,
+  "status": "conflicting_identifiers",
+  "confidence": null,
+  "stage": null,
+  "related": 0,
+  "candidates": 0,
+  "sources": {
+   "federalRegister": "success",
+   "regulationsGov": "not_queried"
+  },
+  "billable": false,
+  "charged": {
+   "apify-actor-start": 1,
+   "rule-resolution": 0
+  },
+  "runtimeS": 1.876,
+  "usageUsd": 0.0001372205935302708
+ },
+ {
+  "case": "comment open",
+  "run": "b2TZToQBfkBoH2TlU",
+  "runStatus": "SUCCEEDED",
+  "records": 1,
+  "status": "resolved",
+  "confidence": "high",
+  "stage": "proposed_comment_open",
+  "related": 1,
+  "candidates": 0,
+  "sources": {
+   "federalRegister": "success",
+   "regulationsGov": "success"
+  },
+  "billable": true,
+  "charged": {
+   "apify-actor-start": 1,
+   "rule-resolution": 1
+  },
+  "runtimeS": 4.004,
+  "usageUsd": 0.00021834105040795276
+ }
+]
